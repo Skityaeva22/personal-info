@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: "Montserrat";
+    word-wrap: break-word;
+    margin: 0;
+    font-weight: 400;
+    color: #111111;
+}
+
+h2 {
+    margin: 0;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 616px;
+
+        .header {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+
+        .info-text {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+    }
+}
+
+.el-input {
+    height: 56px;
+    width: 616px;
+    --el-input-border-color: #f1f1f1;
+}
+
+.el-input__inner {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 400;
+    height: 24px;
+    margin-top: 24px;
+}
+
+.el-input-number .el-input__inner {
+    text-align: start;
+}
+
+.el-input-number.is-without-controls .el-input__wrapper {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.label {
+    position: absolute;
+    color: #1111117A;
+    padding-left: 11px;
+    top: 7px;
+    z-index: 50;
+}
+
+.el-button.is-round {
+    border: 2px solid;
+    border-radius: 9999px;
+}
+
+.form-item {
+    position: relative;
+    height: 56px;
+}
+
+.el-tag {
+    padding: 0 20px;
+    background-color: #F1F1F1;
+    height: 44px;
+    border: none;
+    color: #111111;
+}
+
+.active {
+    color: #3c7595;
+}
