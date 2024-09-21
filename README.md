@@ -1,3 +1,16 @@
+# Скитяева Анастасия Николаевна
+
+Тестовое задание было выполнено для Alef Development.
+
+# Настройки
+
+Версия node.js: v20.5.1
+Версия npm: 9.8.0
+
+# Figma
+
+https://www.figma.com/design/34RHaNzxPnoTPCtpIrqMYU/Test-Alef?node-id=2988-5433&node-type=frame&t=xmTP9zrhJzI0EpSP-0
+
 # skityaeva-info-form-project
 
 This template should help get you started developing with Vue 3 in Vite.
